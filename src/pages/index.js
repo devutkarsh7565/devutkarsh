@@ -3,6 +3,12 @@ import { Inter } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import ScrollToTop from "@/components/ScrollToTop";
 import Footer from "@/components/Footer";
+import HeroSection from "@/components/HomePage/HeroSection";
+import AboutSection from "@/components/HomePage/AboutSection";
+import Experience from "@/components/HomePage/Experience";
+import Skills from "@/components/HomePage/Skills";
+import Projects from "@/components/HomePage/Project/Project";
+import Education from "@/components/HomePage/Education";
 
 const inter = Inter({ subsets: ["latin"] });
 
