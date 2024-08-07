@@ -19,7 +19,7 @@ export default function Home() {
         <Projects />
         <Education />
 
-        <ContactSection />
+        {/* <ContactSection /> */}
         <ScrollToTop />
       </main>
       <Footer />
