@@ -6,6 +6,8 @@ import { BsPersonWorkspace } from "react-icons/bs";
 import AnimationLottie from "../../components/Helper/LottieAnimation";
 import GlowCard from "../../components/Helper/GlowCard";
 import experience from "../../../public/lottie/code.json";
+import Link from "next/link";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 function Experience() {
   return (
@@ -67,9 +69,18 @@ function Experience() {
                         <p className="text-base sm:text-xl mb-2 font-medium uppercase">
                           {experience.title}
                         </p>
-                        <p className="text-sm sm:text-base">
+                        <p className="text-sm sm:text-base mb-2">
                           {experience.company}
                         </p>
+                        {experience?.link && (
+                          <Link
+                            className="text-sm text-pink-600 flex gap-2 items-center"
+                            href={experience.link}
+                          >
+                            <h4>Link</h4>
+                            <FaExternalLinkAlt className="w-3 h-3 " />
+                          </Link>
+                        )}
                       </div>
                     </div>
                   </div>

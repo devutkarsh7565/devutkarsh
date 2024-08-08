@@ -1,20 +1,21 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    title: "Bachelor of Technology in Computer Science",
+    duration: "(2020 - 2024)",
+    institution:
+      "Mahatma Jyotiba Phule Rohilkhand University - Bareilly, India",
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
+    title: "Secondary Education (2020)",
+    duration: "(2018 - 2020)",
+    institution: "P.N National Public School (CBSE) - 12th",
   },
   {
     id: 3,
-    title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
+    title: "High School (2018)",
+    duration: "2018",
+    institution: "N.E Railway Senior Secondary School , Gorakhpur - 10th",
   },
 ];

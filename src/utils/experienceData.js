@@ -1,20 +1,23 @@
 export const experiences = [
   {
     id: 1,
-    title: "Software Engineer I",
-    company: "Teton Private Ltd.",
-    duration: "(Jan 2022 - Present)",
+    title: "Software Developer",
+    company: "Kroto (Backed by 100X.VC)",
+    duration: "(October 2023 - July 2024)",
+    link: "https://www.linkedin.com/company/kroto-kreator-labs/posts/?feedView=all",
   },
   {
     id: 2,
-    title: "FullStack Developer",
-    company: "Fiverr (freelance)",
-    duration: "(Jun 2021 - Jan 2022)",
+    title: "Frontend Developer Intern",
+    company: "Traveey Technologies",
+    duration: "(May 2023 - Sep 2023)",
+    link: "https://www.linkedin.com/company/traveey-technologies/",
   },
   {
     id: 3,
-    title: "Self Employed",
-    company: "Code and build something in everyday.",
-    duration: "(Jan 2018 - Present)",
+    title: "Software Developer freelancer",
+    company: "Code and build something for freelancing",
+    duration: "(Jan 2023 - Mar 2023)",
+    link: "https://rachayitha.vercel.app/",
   },
 ];
